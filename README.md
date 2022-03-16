@@ -3,9 +3,9 @@
 Extend this ExpressJS application with a `/healthz` or `/status` and `/metrics` endpoints, considering the following requirements:
 
 -   Both endpoints should return an HTTP 200 status code
--   Both endpoints should return a JSON response e.g. `{"user": "admin"}`. (Note: the JSON response can be hardcoded at this stage)
--   The `/healthz` or `/status` endpoint should return a response similar to this example: `result: OK - healthy`
--   The `/metrics` endpoint should return a response similar to this example: `data: {UserCount: 140, UserCountActive: 23}`
+-   Both endpoints should return a JSON response e.g. `{ "user": "admin" }`. (Note: the JSON response can be hardcoded at this stage)
+-   The `/healthz` or `/status` endpoint should return a response similar to this example: `{ result: OK - healthy }`
+-   The `/metrics` endpoint should return a response similar to this example: `data: { UserCount: 40, UserCountActive: 5 }`
 
 ### Tech stack
 
